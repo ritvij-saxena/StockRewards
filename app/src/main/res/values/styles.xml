@@ -8,11 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
+    <!-- Change the theme here and in activity_main.xml/Toolbar -->
     <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="android:textColorPrimary">@color/toolbarText</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
         <item name="actionMenuTextColor">@color/colorPrimary</item>
-        <item name="colorControlHighlight">@color/colorGreen</item>
+        <item name="colorControlHighlight">#000</item>
     </style>
 
     <style name="ToolBarTextStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
